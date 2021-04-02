@@ -1,12 +1,13 @@
-package stepDefinitions;
+package com.name.stepDefinitions;
 
 
 
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 
+import com.name.pageSteps.userSteps;
+
 import io.cucumber.java.en.*;
-import pageSteps.userSteps;
 
 public class userLogin {
 	
