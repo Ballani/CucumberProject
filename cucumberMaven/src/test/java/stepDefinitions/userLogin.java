@@ -1,6 +1,6 @@
 package stepDefinitions;
 
-import java.util.concurrent.TimeUnit;
+
 
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
@@ -17,7 +17,7 @@ public class userLogin {
 	public void user_on_login_page(){
 		System.out.println("In the login page");
 		
-		System.setProperty("webdriver.chrome.driver","./src/test/resources/drivers/chromedriver_new.exe");
+		System.setProperty("webdriver.chrome.driver","./src/test/resources/drivers/chromedriver.exe");
 		driver=new ChromeDriver();
 		driver.get("https://example.testproject.io/web/");
 		driver.manage().window().maximize();
