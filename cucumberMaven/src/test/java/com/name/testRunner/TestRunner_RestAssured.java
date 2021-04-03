@@ -8,7 +8,7 @@ import io.cucumber.junit.CucumberOptions;
 
 	
 	@RunWith(Cucumber.class)
-	@CucumberOptions(features="src/test/resources/features/restAssured.feature",
+	@CucumberOptions(features="src/test/resources/features/rapidApi.feature",
 	glue="com.name.stepDefinitions",
 	plugin= {"pretty","html:target/HtmlReports/reports"})
 	public class TestRunner_RestAssured{

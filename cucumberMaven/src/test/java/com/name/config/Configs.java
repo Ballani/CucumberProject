@@ -25,5 +25,17 @@ public class Configs {
 		return pathURL;
 	}
 	
+	
+	public String getJsonAPIhost() {
+		String hostURL=pro.getProperty("JsonAPIhost");
+		return hostURL;
+	}
+	
+	public String getJsonPostPath() {
+		String pathURL=pro.getProperty("JsonPostPath");
+		return pathURL;
+	}
+
+	
 }
 
